@@ -40,10 +40,6 @@ p {
     height: 100%;
 }
 
-.container > div {
-    /* border: 1px solid black; */
-  }
-
 .header {
     background-color: var(--main-color4);
     grid-column: 2;
