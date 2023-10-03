@@ -146,6 +146,18 @@ p {
 
 .content .content-side-card {
     grid-column: 2;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5em 10fr;
+    text-align: left;
+}
+
+.side-card {
+    background-color: var(--main-color4);
+    padding: 1.5rem;
+    box-shadow: 0px 2px 2px gray;
+    border-radius: 10px;
 }
 
 .projects {
