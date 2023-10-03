@@ -131,12 +131,35 @@ p {
 
     display: grid;
     grid-template-rows: 8rem 1fr 1fr;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.nav-icon {
+    width: 2rem;
+    /* vertical-align: bottom; */
+}
+
+.dashIcon {
+    width: 4rem;
+}
+
+.dashboard-item, .dash {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 .profile-nav, .profile-admin, .dash {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(1rem, 4rem));;
+    grid-template-rows: repeat(auto-fit, minmax(1rem, 4rem));
 }
+
+/* .profile-nav > div, .profile-admin > div, .dash > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
 
 .content {
     background-color: var(--background-color);
