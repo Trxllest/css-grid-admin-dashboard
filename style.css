@@ -105,6 +105,12 @@ p {
 .header .search-bar {
     display: grid;
     grid-template-columns: 1fr 10fr;
+    align-items: center;
+}
+
+.searchIcon {
+    width: 1.5rem;
+    justify-self: center;
 }
 
 .header .search-bar {
