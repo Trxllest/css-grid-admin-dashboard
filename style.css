@@ -99,14 +99,22 @@ p {
     grid-row: 1;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.profile-pic {
+    width: 2.5rem;
+    border-radius: 50%;
 }
 
 .header .search-bar {
     display: grid;
     grid-template-columns: 1fr 10fr;
     align-items: center;
+    
 }
 
 .searchIcon {
